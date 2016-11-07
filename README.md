@@ -1,5 +1,7 @@
 # imagemagick-native-promise
 
+[![Build Status](https://travis-ci.org/greenlikeorange/imagemagick-native-promise.png)](https://travis-ci.org/greenlikeorange/iimagemagick-native-promise)
+
 JavaScript Promise wrapper for [node-imagemagick-native](https://github.com/elad/node-imagemagick-native)
 
 Features
@@ -17,7 +19,7 @@ Promise supported methods
     * [`composite`](#composite)
     * [`getConstPixels`](#getConstPixels)
 
-Please look full API reference at https://github.com/elad/node-imagemagick-native/blob/master/README.md 
+Please look full API reference at https://github.com/elad/node-imagemagick-native/blob/master/README.md
 
 Original's table of contents
 

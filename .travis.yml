@@ -1,8 +1,9 @@
 sudo: false
 language: node_js
 node_js:
-  - "6.x"
-  - "4.2"
+  - "6"
+  - "5"
+  - "4"
 env:
   - CC=clang CXX=clang++ npm_config_clang=1
 addons:
