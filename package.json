@@ -1,0 +1,24 @@
+{
+  "name": "imagemagick-native-promise",
+  "version": "1.0.0",
+  "description": "Promise wrapper for node-imagemagick-native library",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "node-imagemagick-native",
+    "imagemagick-native",
+    "imagemagick",
+    "promise"
+  ],
+  "author": "greenlikeorange <ty@kny.co>",
+  "license": "MIT",
+  "dependencies": {
+    "imagemagick-native": "^1.9.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+sudo: false
+language: node_js
+node_js:
+  - "6.x"
+  - "4.2"
+env:
+  - CC=clang CXX=clang++ npm_config_clang=1
+addons:
+  apt:
+    packages:
+    - libmagick++-dev
