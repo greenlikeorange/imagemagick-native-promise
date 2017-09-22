@@ -55,11 +55,10 @@ var im = Object.assign({}, imagemagick, {
       var pixels;
       try {
         pixels = imagemagick.getConstPixels(option);
+        resolve(pixels);
       } catch (e) {
         return reject(e);
       }
-
-      resolve(result);
     })
   }
 
